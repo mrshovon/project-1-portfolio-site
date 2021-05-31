@@ -1,0 +1,143 @@
+body{
+    font-family: 'Stint Ultra Condensed', cursive;
+    margin: 0%;
+} 
+section{
+    height: 500px;
+}
+.Top{
+    background-image:url("resources/images/backgrounds/header-bg.png") ;
+    background-repeat: no-repeat;
+    background-size: 1400px 500px; 
+    font-size: 30px;
+}
+.Top #name{
+    font-size: 60px;
+    margin-bottom: 0%;
+    margin-top: -10%;
+    background-image: linear-gradient(rgb(153, 17, 17),royalblue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.Top h5{
+    margin-top: 0%;
+}
+.half-width{
+    float: left;
+    width: 35%;
+    margin-left: 5%;
+    padding-left: 4%;   
+}
+.half-width img{
+    width:100%
+}
+.middle{
+    background-image:url("resources/images/backgrounds/biography-bg.png") ;
+    background-repeat: no-repeat;
+    background-size: 1400px 500px; 
+    font-size: 30px;
+}
+.half-width2{
+    float: left;
+    width: 35%;
+    margin-left: 5%;
+    margin-top: 1%;
+    padding-left: 4%;
+    padding-right: 4%;  
+}
+.half-width2 img{
+    width: 100%;
+}
+.half-width2 .bio1{
+    margin-top: 50px;
+}
+.half-width2 .bio{
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+.lb{
+    font-size: 30px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: rgb(185, 188, 197);
+    background-color: rgb(17, 17, 39);
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 5px rgb(43, 43, 67);
+}
+.middle-last{
+    background-image:url("resources/images/backgrounds/latest-work-bg.png") ;
+    background-repeat: no-repeat;
+    background-size: 1400px 500px;
+    font-size: 35px;
+}
+.middle-last .mid{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    text-decoration: underline;
+}
+.Latest-work{
+    float:left;
+    width: 25%;
+    margin-left: 7%;
+}
+.Latest-work img{
+    width: 80%;
+}
+.last{
+    background-image:url("resources/images/backgrounds/footer-bg.png") ;
+    background-repeat: no-repeat;
+    background-size: 1400px 500px;
+}
+.last{
+    text-align: center;
+}
+.last h1{
+    text-decoration: underline;
+    font-size: 35px;
+}
+.last h2{
+    margin-bottom: 0%;
+    font-size: 28px;
+}
+.last h6{
+    margin-top: 0%;
+    font-size: 23px;
+    font-weight: lighter;
+    
+}
+.last .feedback{
+    width:20% ;
+    height:15% ;
+    margin-left: 40%;
+    font-size: 16px;
+
+
+}
+.msg{
+    width: 28%;
+    height: 18%;
+    margin-top: 6%;
+    margin-left: 35.5%;
+    padding-top: 25px;
+    background-color: royalblue;
+    border: royalblue;
+    border-radius: 7px;
+    box-shadow: 0px 0px 4px 4px  rgb(100, 104, 114) ;
+}
+.link{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.span{
+    font-size: 15px;
+    margin-bottom: 0%;
+}
+.email{
+    font-size: 25px;
+    margin-top: 0%;
+}
+footer{
+    font-weight: bolder;
+    text-align: center;
+}
