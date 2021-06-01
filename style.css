@@ -123,8 +123,9 @@ section{
 .msg{
     width: 28%;
     height: 18%;
-    margin-top: 6%;
+    margin-top: 4%;
     margin-left: 35.5%;
+    margin-bottom: 0%;
     padding-top: 25px;
     background-color: royalblue;
     border: royalblue;
@@ -141,13 +142,39 @@ section{
 }
 .email{
     font-size: 30px;
-    margin-top: 0%;
+    margin-top: 1px;
+    margin-bottom: 0%;
 }
-footer .fb{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 5%;
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon a{
+    height: 26px;
+    width: 25px;
+    background-color: rgb(189, 186, 186);
+    border-radius: 50px;
+    text-align: center;
+    margin: 5px;
+    margin-top: 5px;
+    line-height: 32px;
+    box-shadow: 1px 4px 2px 2px rgb(220, 217, 217);
+}
+.icon a i{
+    transition: all 0.3 linear;
+}
+.icon a i:hover{
+    transform: scale(1.4);
+}
+.fa-facebook{
+    color: #3b5998;
+}
+fa-linkedin{
+    color: #0e76a8;
+}
+fa-instagram{
+    color: #8a3ab9;
 }
 footer img{
     width: 50%;
